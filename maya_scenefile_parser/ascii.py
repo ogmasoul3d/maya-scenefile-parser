@@ -101,7 +101,7 @@ class MayaAsciiParserBase(common.MayaParserBase):
         attrtype = None
         value = None
 
-        argptr = 1
+        argptr = 0
         while argptr < len(args):
             arg = args[argptr]
             if arg in ("-type", "--type"):
